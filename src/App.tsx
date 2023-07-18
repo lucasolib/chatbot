@@ -1,9 +1,7 @@
-import { useState } from 'react'
 import BotInfo from './botInfo'
 import './App.css'
 
 function App() {
-  const [count, setCount] = useState(0)
 
   return (
     <>
