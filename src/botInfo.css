@@ -1,0 +1,22 @@
+.icon {
+  border-radius: 50%;
+}
+
+.infoDiv {
+  display: flex;
+  align-items: center;
+  flex-direction: row;
+
+}
+
+.titleBot h1 {
+  font-size: 200%;
+}
+
+.text {
+  display: flex;
+  color: black;
+  flex-wrap: wrap;
+  flex-basis: 75%;
+  height: 150px;
+}
