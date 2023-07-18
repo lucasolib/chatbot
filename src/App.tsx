@@ -1,4 +1,5 @@
 import { useState } from 'react'
+import BotInfo from './botInfo'
 import './App.css'
 
 function App() {
@@ -6,8 +7,7 @@ function App() {
 
   return (
     <>
-      <h1>Optus</h1>
-      <h4>419k people like this including Maha Mourad and 35 Friends</h4>
+      <BotInfo />
       <h1>"CHAT"</h1>
     </>
   )
