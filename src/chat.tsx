@@ -10,7 +10,7 @@ function Chat() {
   }
 
   function sendMessage() {
-    const iniciateWords = ['hello', 'goodbye', 'good', 'i want'];
+    const iniciateWords = ['hello', 'good', 'i want'];
     const lowerMessage = message.toLowerCase();
     for (let i = 0; i < iniciateWords.length; i += 1) {
       const element = iniciateWords[i];
@@ -18,6 +18,8 @@ function Chat() {
         return initiateConversation();
       } if(lowerMessage.includes('loan')) {
         return loanOptions();
+      } if(lowerMessage.includes('goodbye')) {
+        return endConversation();
       }
     } 
   }
@@ -27,11 +29,14 @@ function Chat() {
 
     // PARA CADA OPÇÃO MOSTRE INFORMAÇÕES RELEVANTES COM UM LINK DE REFERÊNCIA
 
-    // PARA O TERMO GOODBYE FINALIZE A CONVERSA E ARMAZENE-A
   }
 
   function loanOptions() {
     // MOSTRAR AS OPÇÕES QUE AO SEREM CLICADAS RENDERIZA INFORMAÇÕES E UM LINK SOBRE O ASSUNTO
+  }
+
+  function endConversation() {
+    // FINALIZE A CONVERSA E ARMAZENE-A
   }
 
   return (
