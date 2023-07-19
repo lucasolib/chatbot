@@ -4,9 +4,8 @@
         "es2021": true
     },
     "extends": [
-        "eslint:trybe-backend",
-        "plugin:react/recommended",
-        "plugin:@typescript-eslint/recommended"
+        "eslint:trybe-fundamentals",
+        "plugin:react/recommended"
     ],
     "overrides": [
     ],

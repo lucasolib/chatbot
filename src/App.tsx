@@ -1,4 +1,5 @@
 import BotInfo from './botInfo'
+import Chat from './chat'
 import './App.css'
 
 function App() {
@@ -6,7 +7,7 @@ function App() {
   return (
     <>
       <BotInfo />
-      <h1>"CHAT"</h1>
+      <Chat />
     </>
   )
 }
